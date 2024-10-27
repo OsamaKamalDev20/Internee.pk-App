@@ -1,0 +1,37 @@
+name: interneepk_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  cupertino_icons: ^1.0.2
+  curved_labeled_navigation_bar: ^2.0.2
+  font_awesome_flutter: ^10.7.0
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Heading
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+    - family: SubHeading
+      fonts:
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Description
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+    - family: Paragraph
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
